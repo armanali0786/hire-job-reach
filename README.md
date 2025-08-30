@@ -24,21 +24,3 @@ Frontend: React 18 , Tailwind CSS , Axios
 Backend: Node.js + Express , Nodemailer (SMTP with Gmail or custom provider), Multer (for resume uploads)
 
 Database: MongoDB (Atlas)
-
-
-
-hire-job-reach/
-│── backend/             # Express server + Email logic
-│   ├── models/          # MongoDB models
-│   ├── routes/          # API routes
-│   ├── utils/           # Mailer utility
-│   └── server.js        # Entry point
-│
-│── frontend/            # React application
-│   ├── src/
-│   │   ├── components/  # UI Components
-│   │   ├── pages/       # Pages (EmailTable, Dashboard, etc.)
-│   │   └── api.js       # API calls
-│   └── vite.config.js
-│
-└── README.md            # Project description
